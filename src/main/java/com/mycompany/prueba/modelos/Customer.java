@@ -2,27 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.prueba.ventas;
+package com.mycompany.prueba.modelos;
+
+import com.mycompany.prueba.repositorio.PaymentType;
 
 /**
- *
  * @author PC
  */
-public class Customer {
+public class Customer extends BaseEntity {
 
-    private int customerId;
     private String customerName;
     private PaymentType paymentType;
-    private static int customerCounter;
 
     public Customer(String customerName, PaymentType paymentType) {
-        this.customerId = ++customerCounter;
+        super();
         this.customerName = customerName;
         this.paymentType = paymentType;
-    }
-
-    public int getCustomerId() {
-        return customerId;
     }
 
     public String getCustomerName() {
@@ -43,7 +38,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer ID: " + customerId
+        return "Customer: "
                 + ", Name: " + customerName
                 + ", Payment Type: " + paymentType;
     }

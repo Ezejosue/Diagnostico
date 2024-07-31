@@ -4,10 +4,10 @@
  */
 package com.mycompany.prueba.test_ventas;
 
-import com.mycompany.prueba.ventas.Customer;
-import com.mycompany.prueba.ventas.Order;
-import com.mycompany.prueba.ventas.PaymentType;
-import com.mycompany.prueba.ventas.Product;
+import com.mycompany.prueba.modelos.Customer;
+import com.mycompany.prueba.modelos.Order;
+import com.mycompany.prueba.repositorio.PaymentType;
+import com.mycompany.prueba.modelos.Product;
 import java.util.Scanner;
 
 /**

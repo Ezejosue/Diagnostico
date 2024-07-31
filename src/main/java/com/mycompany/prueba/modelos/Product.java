@@ -2,27 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.prueba.ventas;
+package com.mycompany.prueba.modelos;
 
 /**
- *
  * @author PC
  */
-public class Product {
+public class Product extends BaseEntity {
 
-    private int productId;
     private String productName;
-    private double price;
-    private static int productCounter;
+    private Double price;
 
-    public Product(String productName, double price) {
-        this.productId = ++productCounter;
+    public Product(String productName, Double price) {
+        super();
         this.productName = productName;
         this.price = price;
-    }
-
-    public int getProductId() {
-        return productId;
     }
 
     public String getProductName() {
@@ -33,17 +26,17 @@ public class Product {
         this.productName = productName;
     }
 
-    public double getPrice() {
-        return price;
+    public Double getPrice() {
+        return this.price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
     @Override
     public String toString() {
-        return "Product ID: " + productId
+        return "Product: ID: " + id
                 + ", Name: " + productName
                 + ", Price: $" + price;
     }
