@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf95986-0b0d-41fe-b471-ac0639a24557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/ProductoCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/AbstracListRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/CRUDCentralization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/CRUDRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IContableRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrdenableRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IPaginableRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/ProductCRUDGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/Prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/Prueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/ventas/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/ventas/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/ventas/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/ventas/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/Prueba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/Prueba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/test_ventas/Sales.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/test_ventas/Sales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/test_ventas/UserInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/test_ventas/UserInteraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/ventas/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/ventas/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/ventas/PaymentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/ventas/Product.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/ClienteCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrdenInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Customer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CustomerCRUDGeneric.executor": "Run",
     "Application.ProductCRUDGeneric.executor": "Run",
     "Application.Prueba.executor": "Run",
     "Application.SalesGeneric.executor": "Run",
@@ -121,11 +105,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722455808500</updated>
-      <workItem from="1722455809797" duration="4774000" />
+      <workItem from="1722455809797" duration="7414000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

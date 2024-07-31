@@ -21,7 +21,7 @@ public class Customer extends BaseEntity {
     }
 
     public String getCustomerName() {
-        return customerName;
+        return this.customerName;
     }
 
     public void setCustomerName(String customerName) {
@@ -38,7 +38,7 @@ public class Customer extends BaseEntity {
 
     @Override
     public String toString() {
-        return "Customer: "
+        return "Customer: ID: " + id
                 + ", Name: " + customerName
                 + ", Payment Type: " + paymentType;
     }

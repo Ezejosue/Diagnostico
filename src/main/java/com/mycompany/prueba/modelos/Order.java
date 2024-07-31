@@ -7,12 +7,10 @@ package com.mycompany.prueba.modelos;
 import java.util.Date;
 
 /**
- *
  * @author PC
  */
-public class Order {
+public class Order extends BaseEntity {
 
-    private int orderId;
     private Product[] products;
     private Customer customer;
     private Date date;
@@ -21,7 +19,7 @@ public class Order {
     private static final int MAX_PRODUCTS = 10;
 
     public Order(Customer customer) {
-        this.orderId = ++orderCounter;
+        super();
         this.customer = customer;
         this.products = new Product[MAX_PRODUCTS];
         this.date = new Date();
@@ -48,7 +46,7 @@ public class Order {
     }
 
     public void showOrder() {
-        System.out.println("Orden #" + orderId);
+        System.out.println("Orden #" + id);
         System.out.println("Cliente: " + customer);
         System.out.println("Fecha: " + date);
         System.out.println("Productos: ");
