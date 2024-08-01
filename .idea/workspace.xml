@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf95986-0b0d-41fe-b471-ac0639a24557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/ClienteCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrdenInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/AbstracListOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/OrderCRUDGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrdenInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/ProductCRUDGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/ProductCRUDGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Order.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2k1f43oBbgicgJi2qq0PbVg5Wlr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,9 +45,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CustomerCRUDGeneric.executor": "Run",
+    "Application.OrderCRUDGeneric.executor": "Run",
     "Application.ProductCRUDGeneric.executor": "Run",
     "Application.Prueba.executor": "Run",
     "Application.SalesGeneric.executor": "Run",
+    "Application.UserInteraction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Diagnostico-Improve",
     "kotlin-language-version-configured": "true",
@@ -105,7 +110,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722455808500</updated>
-      <workItem from="1722455809797" duration="7414000" />
+      <workItem from="1722455809797" duration="8336000" />
+      <workItem from="1722468767524" duration="4421000" />
+      <workItem from="1722478952319" duration="3757000" />
     </task>
     <servers />
   </component>
