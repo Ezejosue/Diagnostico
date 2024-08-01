@@ -3,6 +3,8 @@ package com.mycompany.prueba.repositorio;
 import com.mycompany.prueba.modelos.Order;
 import com.mycompany.prueba.modelos.Product;
 
+import java.util.List;
+
 public interface IOrden {
     void crear(Order order);
 
@@ -17,4 +19,6 @@ public interface IOrden {
     Double calculateOrderTotal(Order order);
 
     void mostrarOrden(Order order);
+
+    void listar();
 }

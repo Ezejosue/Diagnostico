@@ -46,6 +46,7 @@ public class OrderCRUDGeneric {
 
         // Crear una orden
         repositoryOrder.crear(new Order(repositoryCustomer.porId(6)));
+        repositoryOrder.crear(new Order(repositoryCustomer.porId(8)));
 
         //Añaadir productos a la orden
         repositoryOrder.addProduct(repositoryOrder.porId(9), repositoryProduct.porId(1));
@@ -53,9 +54,27 @@ public class OrderCRUDGeneric {
         repositoryOrder.addProduct(repositoryOrder.porId(9), repositoryProduct.porId(3));
         repositoryOrder.addProduct(repositoryOrder.porId(9), repositoryProduct.porId(4));
 
+        repositoryOrder.addProduct(repositoryOrder.porId(10), repositoryProduct.porId(1));
+        repositoryOrder.addProduct(repositoryOrder.porId(10), repositoryProduct.porId(2));
+        repositoryOrder.addProduct(repositoryOrder.porId(10), repositoryProduct.porId(3));
+        repositoryOrder.addProduct(repositoryOrder.porId(10), repositoryProduct.porId(4));
+
         //Mostar la orden
         repositoryOrder.mostrarOrden(repositoryOrder.porId(9));
 
+        //Editar la orden
+        Order order = repositoryOrder.porId(9);
+        order.setCustomer(repositoryCustomer.porId(7));
+        repositoryOrder.editar(order);
+        System.out.println("=======================================");
+        repositoryOrder.mostrarOrden(repositoryOrder.porId(9));
+
+        //Eliminar la orden
+        repositoryOrder.eliminar(9);
+
+        System.out.println("=======================================");
+        //Listar todas las ordenes
+        repositoryOrder.listar();
 
     }
 }

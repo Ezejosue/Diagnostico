@@ -73,5 +73,12 @@ public abstract class AbstracListOrder implements IOrden {
         return null;
     }
 
+    @Override
+    public void listar() {
+        for (Order order : orders) {
+            mostrarOrden(order);
+        }
+    }
+
 
 }

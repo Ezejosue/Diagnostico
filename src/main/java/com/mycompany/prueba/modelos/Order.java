@@ -1,5 +1,6 @@
 package com.mycompany.prueba.modelos;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class Order extends BaseEntity {
@@ -51,7 +52,9 @@ public class Order extends BaseEntity {
 
     @Override
     public String toString() {
-        return "Order{" + "products=" + products + ", customer=" + customer + ", date=" + date + ", productCounter=" + productCounter + '}';
+        return "Order{" + "products=" +
+                Arrays.toString(products)
+                + ", customer=" + customer + ", date=" + date + ", productCounter=" + productCounter + '}';
     }
 
 }

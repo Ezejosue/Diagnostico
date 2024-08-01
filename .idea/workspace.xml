@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf95986-0b0d-41fe-b471-ac0639a24557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/AbstracListOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/OrderCRUDGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/implementacion/OrdenCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/modelos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrdenInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/CustomerCRUDGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/ProductCRUDGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/ProductCRUDGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/Sales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/UserInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mycompany/prueba/modelos/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/AbstracListOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/AbstracListOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/repositorio/IOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/OrderCRUDGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/prueba/test_ventas/OrderCRUDGeneric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CustomerCRUDGeneric.executor": "Run",
-    "Application.OrderCRUDGeneric.executor": "Run",
-    "Application.ProductCRUDGeneric.executor": "Run",
-    "Application.Prueba.executor": "Run",
-    "Application.SalesGeneric.executor": "Run",
-    "Application.UserInteraction.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Diagnostico-Improve",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CustomerCRUDGeneric.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderCRUDGeneric.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductCRUDGeneric.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prueba.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SalesGeneric.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInteraction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Diagnostico-Improve&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ProductCRUDGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.prueba.test_ventas.ProductCRUDGeneric" />
@@ -112,7 +106,8 @@
       <updated>1722455808500</updated>
       <workItem from="1722455809797" duration="8336000" />
       <workItem from="1722468767524" duration="4421000" />
-      <workItem from="1722478952319" duration="3757000" />
+      <workItem from="1722478952319" duration="10024000" />
+      <workItem from="1722527321807" duration="947000" />
     </task>
     <servers />
   </component>
